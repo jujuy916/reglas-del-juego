@@ -7,18 +7,15 @@
     body {
       margin: 0;
       font-family: 'Segoe UI', sans-serif;
-      background: linear-gradient(135deg, #1a1a40, #4b0082);
+      background: linear-gradient(to right, #2c3e50, #3498db);
       color: white;
       padding: 2rem;
-      background-image: url('https://i.imgur.com/uAt1Z0A.jpeg'); /* fondo estilo libro */
-      background-size: cover;
-      background-attachment: fixed;
     }
 
     header {
       text-align: center;
-      background-color: rgba(0, 0, 0, 0.6);
       padding: 1rem;
+      background-color: rgba(0, 0, 0, 0.4);
       border-radius: 15px;
       margin-bottom: 2rem;
     }
@@ -30,9 +27,10 @@
     }
 
     .reglas {
-      background-color: rgba(0, 0, 0, 0.6);
+      background-color: rgba(255, 255, 255, 0.1);
       padding: 2rem;
       border-radius: 15px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
       max-width: 800px;
       margin: auto;
     }
@@ -45,17 +43,6 @@
     .reglas ol {
       padding-left: 1.5rem;
       font-size: 1.2rem;
-    }
-
-    .multimedia {
-      margin-top: 2rem;
-      text-align: center;
-    }
-
-    .multimedia img, .multimedia video {
-      max-width: 90%;
-      border-radius: 10px;
-      margin-top: 1rem;
     }
 
     footer {
@@ -73,28 +60,18 @@
   </header>
 
   <section class="reglas">
-    <h2>Reglas</h2>
+    <h2>Reglas Principales</h2>
     <ol>
-      <li>Cada jugador inicia con 3 vidas.</li>
-      <li>El dado mágico decide los desafíos.</li>
-      <li>Si fallás una misión, perdés una vida.</li>
-      <li>Gana quien logre llegar al castillo con al menos 1 vida.</li>
+      <li>El juego comienza con una carta especial que define la misión.</li>
+      <li>Cada jugador tiene 3 minutos para resolver su desafío individual.</li>
+      <li>Los objetos mágicos solo pueden usarse una vez por ronda.</li>
+      <li>Si alguien rompe una regla, pierde una ficha de ingenio.</li>
+      <li>Gana el jugador que logre superar tres pruebas sin perder fichas.</li>
     </ol>
   </section>
 
-  <section class="multimedia">
-    <h2>Imágenes y videos</h2>
-    <!-- Imagen -->
-    <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Flavidadeungamerprincipiante.blogspot.com%2F2018%2F10%2Fresena-trilogia-el-inventor-de-juegos.html&psig=AOvVaw24pD62hIEUFY9a-FmgQB11&ust=1753220525179000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCLjP_Nf0zo4DFQAAAAAdAAAAABAE"alt="Mapa del juego">
-    <!-- Microvideo -->
-    <video controls width="300">
-      <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
-      Tu navegador no admite video HTML5.
-    </video>
-  </section>
-
   <footer>
-    Página creada por Juan — 2025
+    Página creada por Juan y ChatGPT — 2025
   </footer>
 </body>
 </html>
