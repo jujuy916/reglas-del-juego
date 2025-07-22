@@ -1,77 +1,59 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <title>Reglas del Juego</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Reglas del juego</title>
   <style>
     body {
-      margin: 0;
       font-family: 'Segoe UI', sans-serif;
-      background: linear-gradient(to right, #2c3e50, #3498db);
-      color: white;
+      background-color: #f2f2f2;
+      color: #333;
       padding: 2rem;
+      margin: 0;
     }
 
-    header {
-      text-align: center;
-      padding: 1rem;
-      background-color: rgba(0, 0, 0, 0.4);
-      border-radius: 15px;
-      margin-bottom: 2rem;
+    .container {
+      background-color: white;
+      padding: 2rem;
+      border-radius: 12px;
+      max-width: 800px;
+      margin: auto;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     }
 
     h1 {
-      font-size: 3rem;
-      color: #f1c40f;
-      text-shadow: 2px 2px 5px #000;
+      text-align: center;
+      color: #2c3e50;
     }
 
-    .reglas {
-      background-color: rgba(255, 255, 255, 0.1);
-      padding: 2rem;
-      border-radius: 15px;
-      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
-      max-width: 800px;
-      margin: auto;
+    h2 {
+      color: #34495e;
     }
 
-    .reglas h2 {
-      color: #f39c12;
-      margin-bottom: 1rem;
-    }
-
-    .reglas ol {
-      padding-left: 1.5rem;
+    ul {
       font-size: 1.2rem;
     }
 
-    footer {
-      text-align: center;
-      margin-top: 3rem;
-      font-size: 0.9rem;
-      color: #ddd;
+    img {
+      max-width: 100%;
+      margin-top: 1rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
     }
   </style>
 </head>
 <body>
-  <header>
-    <h1>Reglas del Juego</h1>
-    <p>Inspirado en *El inventor de juegos*</p>
-  </header>
+  <div class="container">
+    <h1>Reglas de mi juego</h1>
 
-  <section class="reglas">
-    <h2>Reglas Principales</h2>
-    <ol>
-      <li>El juego comienza con una carta especial que define la misión.</li>
-      <li>Cada jugador tiene 3 minutos para resolver su desafío individual.</li>
-      <li>Los objetos mágicos solo pueden usarse una vez por ronda.</li>
-      <li>Si alguien rompe una regla, pierde una ficha de ingenio.</li>
-      <li>Gana el jugador que logre superar tres pruebas sin perder fichas.</li>
-    </ol>
-  </section>
-
-  <footer>
-    Página creada por Juan y ChatGPT — 2025
-  </footer>
+    <h2>📜 Instrucciones</h2>
+    <ul>
+      <li>Cada jugador elige un personaje.</li>
+      <li>Se juega por turnos, usando un dado.</li>
+      <li>Si caés en una casilla especial, hacés una prueba o reto.</li>
+      <li>Gana el primero que llegue al final del recorrido.</li>
+    </ul>
+  </div>
 </body>
 </html>
